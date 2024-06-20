@@ -1,0 +1,64 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+ :root {
+     --primary--color: #6466E9;
+     --bg--color: #111729;
+     --bg-card--background: #20293A;
+     --color--quote: #97A3B6;
+     --color-border: #4A5567;
+ }
+
+ body {
+     font-family: "Outfit", sans-serif;
+     background-color: var(--bg--color);
+     color: white;
+
+ }
+
+ .card {
+     background-color: var(--bg-card--background) !important;
+     background-image: url("../images/bg-image-random-quote.svg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     color: white !important;
+    border-radius: 18px!important;
+    }
+
+ .card-title {
+     font-size: 1.5rem;
+ }
+
+ #quote {
+     color: var(--color--quote) !important;
+     font-size: 1rem;
+     min-height: 100px !important;
+     font-weight: 500;
+ }
+
+ #tag2 {
+     text-transform: capitalize !important;
+ }
+
+ .tags {
+     border: 1px solid var(--primary--color);
+     color: var(--primary--color);
+     font-size: .825rem;
+ }
+
+ .random {
+     border: 2px solid var(--color-border);
+ }
+
+ .random:hover {
+     border: 2px solid var(--color-border);
+ }
+
+ .random:active {
+     outline: none;
+     border: 2px solid var(--color-border);
+ }
+
+.image{
+    width: 40px;
+}
